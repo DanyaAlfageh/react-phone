@@ -5,6 +5,8 @@ import './App.css';
 function App() {
   return (
     <div>
+      <img src=
+      {logo} alt=""/>
       HI
     </div>
   );
