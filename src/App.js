@@ -1,14 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div>
-      <img src=
-      {logo} alt=""/>
-      HI
-    </div>
+    // <div className='container'>
+    //   <div className='row'>
+    //   <div className='col-6'>column number 1</div>
+    //   <div className='col-6'>
+    //     <span><i className="fas fa-home"/></span>
+    //   </div>
+    //   </div>
+    // </div>
+    <React.Fragment>
+        <h3>hello from app</h3>    
+    </React.Fragment>
   );
 }
 
